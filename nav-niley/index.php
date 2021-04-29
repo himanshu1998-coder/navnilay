@@ -17,7 +17,7 @@ if(isset($_POST['quiryname'])){
    
 
    if($con->query($sql) == true){
-    header("Location: http://localhost/infinity/thanku.html");
+    header("Location: http://localhost/nav-niley/thanku.html");
      exit();
 }
 else{
@@ -42,7 +42,7 @@ $con->close();
     $sql = "INSERT INTO `infinityhomes`.`navnilayvisit` (`visitname`, `visitemail`, `visitphone`) VALUES ('$name', '$email', '$phone')";
         
     if($con->query($sql) == true){
-        header("Location: http://localhost/infinity/thanku.html");
+        header("Location: http://localhost/nav-niley/thanku.html");
         exit();
     }
     else{
