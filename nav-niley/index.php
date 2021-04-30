@@ -146,7 +146,7 @@ $con->close();
           data-bs-ride="carousel"
         >
           <div class="enquiry-desktop" onclick="showFormMobile()">
-            <span>Enquiry</span>
+            <span>Enquiry Now</span>
           </div>
           <div class="carousel-inner forEnquery">
             <div class="carousel-item active">
